@@ -25,7 +25,7 @@ public class Notifications.NotificationsList : Gtk.ListBox {
 
     private HashTable<string, int> table;
 
-    private GLib.Settings notify_settings;
+    public GLib.Settings notify_settings;
 
     construct {
         app_entries = new Gee.HashMap<string, AppEntry> ();
